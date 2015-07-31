@@ -31,30 +31,21 @@ recipes:
 - sprout-osx-apps::shiftit
 
 # apps (editors)
-- sprout-osx-apps::textmate_preferences
-- sprout-osx-apps::macvim
+- sprout-osx-apps::sublime_text
 - sprout-jetbrains-editors::rubymine
 
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
+      domain: ministryofvelocity.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: dr
+          name: Doc Ritezel
+          username: doc
       projects:
         -
           name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+          url: https://github.com/minifast/sprout-wrap.git
     terminal:
       default_profile: 'Pro'
     settings:
@@ -67,31 +58,29 @@ node_attributes:
       magnification: false
     homebrew:
       formulae:
-        - ctags-exuberant
-        - ag
+        - ack
+        - awscli
         - chromedriver
+        - heroku
+        - htop
         - imagemagick
+        - jq
+        - ncdu
         - node
+        - phantomjs
         - pstree
         - qt
+        - rbenv-binstubs
+        - rbenv-gem-rehash
         - ssh-copy-id
-        - tmux
         - tree
         - watch
         - wget
-        - rbenv-binstubs
-        - rbenv-gem-rehash
       casks:
         - ccmenu
         - firefox
-        - gitx-rowanj
-        - github
         - google-chrome
-        - google-drive
-        - google-hangouts
-        - skype
-        - textmate
-        - vagrant
-        - virtualbox
+        - slack
+        - sococo
         - xquartz
         - xscope
