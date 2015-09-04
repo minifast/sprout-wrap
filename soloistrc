@@ -22,6 +22,7 @@ recipes:
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
+- sprout-redis
 - sprout-mysql
 - sprout-postgresql
 
@@ -42,6 +43,18 @@ node_attributes:
         - initials: dr
           name: Doc Ritezel
           username: doc
+        - initials: cj
+          name: CJ Bryan
+          username: cj
+        - initials: rh
+          name: Rob Head
+          username: rob
+        - initials: jp
+          name: Jeff Parr
+          username: jeff
+        - initials: db
+          name: Damien Burke
+          username: damien
       projects:
         -
           name: sprout-wrap
