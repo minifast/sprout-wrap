@@ -93,6 +93,7 @@ node_attributes:
         - ccmenu
         - firefox
         - google-chrome
+        - screenhero
         - slack
         - sococo
         - xquartz
